@@ -1,8 +1,8 @@
-import 'Header.css'
+import './Header.css'
 
 function Header(){
     return(
-        <div>This is Header Component</div>
+        <div className="header">This is Header Component</div>
     );
 }
 
