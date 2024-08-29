@@ -1,4 +1,5 @@
-import Header from 'Component/header'
+import Header from './Components/header/Header'
+import Footer from './Components/footer/Footer'
 import './App.css';
 
 function App() {
@@ -7,6 +8,9 @@ function App() {
       <header>
         <Header/>
       </header>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
