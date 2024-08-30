@@ -3,7 +3,9 @@ import styled from "./header.module.css";
 function Header() {
   return (
     <header>
-      <div className={styled.header}>This is Header Component</div>
+        <div className={styled.logo}>Logo</div>
+        <div className={styled.navbar}>Navbar</div>
+        <div className={styled.switch}>Switch</div>
     </header>
   );
 }
