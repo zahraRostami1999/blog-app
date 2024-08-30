@@ -1,3 +1,48 @@
+
 .header{
-    background-color: rgb(237, 185, 185);
+    box-shadow: 4px 5px 6px #f2dbec;
+    border: 2px solid #e2e2e2;
+    border-radius: 50px 20px;
+    display: flex;
+    margin: 8px 20px;
+    width: 97%;
+}
+
+.container{
+    margin: 0px 20px;
+    width: 100%;
+    display: flex;
+    padding : 5px 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 40%;
+    padding: 5px;
+}
+
+.logoImg{
+    width: 40%;
+}
+
+.logoImg img{
+    width: 80%;
+}
+
+.logoTitle{
+    margin-left: 20px;
+    display: flex;
+    justify-content: start;
+    width: 100%;
+}
+
+.navbar{
+
+    width: 80%;
+}
+
+.switch{
+
+    width: 10%;
 }
