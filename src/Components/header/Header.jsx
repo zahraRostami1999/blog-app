@@ -1,10 +1,7 @@
 import styled from "./header.module.css";
 import logo from './Blog-app-logo.png';
 
-function Header() {
-
-    const blogTitle = "Zahra Rostami's Blog";
-
+function Header(props) {
   return (
     <header className={styled.header}>
         <div className={styled.container}>
@@ -12,7 +9,7 @@ function Header() {
                 <div className={styled.logoImg}>
                     <img src={logo} alt="logo" />
                 </div>
-                <div className={styled.logoTitle}><h2>{blogTitle}</h2></div>
+                <div className={styled.logoTitle}><h2>{props.blogTitle}</h2></div>
             </div>
             <div className={styled.navbar}>Navbar</div>
             <div className={styled.switch}>Switch</div>
