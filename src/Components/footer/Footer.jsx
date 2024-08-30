@@ -1,8 +1,12 @@
 import styled from'./footer.module.css'
 
-function Footer(){
+function Footer(props){
     return(
-        <div className={styled.footer}>This is Footer component</div>
+        <div className={styled.footer}>
+            <div className={styled.footerTitle}>
+                <h3>{props.title}</h3>
+            </div>
+        </div>
     );
 }
 
