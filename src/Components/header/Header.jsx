@@ -1,9 +1,11 @@
-import './Header.css'
+import styled from "./header.module.css";
 
-function Header(){
-    return(
-        <div className="header">This is Header Component</div>
-    );
+function Header() {
+  return (
+    <header>
+      <div className={styled.header}>This is Header Component</div>
+    </header>
+  );
 }
 
-export default Header
+export default Header;
