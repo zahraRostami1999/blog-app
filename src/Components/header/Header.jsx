@@ -2,7 +2,7 @@ import styled from "./header.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styled.header}>
         <div className={styled.logo}>Logo</div>
         <div className={styled.navbar}>Navbar</div>
         <div className={styled.switch}>Switch</div>
