@@ -5,7 +5,7 @@ function Post_list() {
   return (
     <div className="container">
       <div className={styled.postList}>
-        <div>Post lists</div>
+        <div><h2>Post lists</h2></div>
         <div className={styled.list}>
             <Post />
             <Post />
