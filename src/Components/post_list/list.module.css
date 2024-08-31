@@ -1,0 +1,11 @@
+.postList{
+    background-color: rgb(228, 162, 138);
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    padding: 50px 0;
+}
