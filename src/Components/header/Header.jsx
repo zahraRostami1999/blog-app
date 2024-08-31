@@ -1,5 +1,5 @@
 import styled from "./header.module.css";
-import logo from './Blog-app-logo.png';
+import logo from './../../assets/image/Blog-app-logo.png';
 
 function Header(props) {
   return (
