@@ -1,14 +1,24 @@
 .postWrapper{
     width: 22%;
-    height: 200px;
-    background-color: rgb(97, 180, 97);
+    box-shadow: 4px 5px 6px #f2dbec;
+    border: 2px solid #e2e2e2;
+    border-radius: 12px ;
     margin-top: 30px;
 }
 
 .postImg{
+    width: 95%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 5px;
+}
+.postImg img{
 
+    width: 70%;
+    height: 80%;
 }
 
 .postTitle{
-    
+    text-align: center;
 }
