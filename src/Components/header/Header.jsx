@@ -12,7 +12,8 @@ function Header(props) {
                 <div className={styled.logoTitle}><h2>{props.blogTitle}</h2></div>
             </div>
             <div className={styled.navbar}>Navbar</div>
-            <div className={styled.switch}>Switch</div>
+            <div className={styled.switch}> switch
+            </div>
         </div>
 
     </header>
