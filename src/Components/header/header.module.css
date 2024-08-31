@@ -18,12 +18,12 @@
 .logo{
     display: flex;
     align-items: center;
-    width: 40%;
+    width: 50%;
     padding: 5px;
 }
 
 .logoImg{
-    width: 40%;
+    width: 30%;
 }
 
 .logoImg img{
