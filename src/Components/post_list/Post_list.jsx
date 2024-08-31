@@ -10,12 +10,11 @@ function Post_list() {
             <Post />
             <Post />
             <Post />
+            <Post />
+            <Post />
+            <Post />
+            <Post />
             <Post /> 
-            <Post />
-            <Post />
-            <Post />
-            <Post /> 
-
             </div>
       </div>
     </div>
