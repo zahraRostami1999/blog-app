@@ -7,8 +7,9 @@
 }
 
 .postBadge{
+    color: rgb(242, 28, 107);
     width: 30%;
-    background-color: red;
+    font-weight: 500;
 }
 
 .postImg{
@@ -26,28 +27,26 @@
 }
 
 .postTitle{
-    background-color: orange;
+    font-weight: bold;
     text-align: center;
-}
-
-.postContent{
-    background-color: yellow;
+    padding-left: 18px;
+    margin: 10px 0;
 }
 
 .postAuthor{
-    width: 60%;
-    background-color: green;
+    width: 40%;
+    font-weight: 500;
 }
 
 .postTime{
     width: 30%;
-    background-color: blue;
 }
 
 .postFooter{
     font-size: small;
-    color: rgb(32, 32, 32);
+    color: rgb(56, 56, 56);
     width: 100%;
     display: flex;
     justify-content: center;
+    padding-bottom: 20px;
 }
