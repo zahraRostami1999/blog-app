@@ -5,7 +5,7 @@ function Post(props) {
   return (
     <div className={styled.postWrapper}>
       <div className={styled.postId}>{props.content.id}</div>
-      <div className={styled.postImg}>
+      <div className={styled.postImg}>{props.content.cover}
         <img src={cover1} alt="cover" />
       </div>
       <div className={styled.postTitle}>First Post</div>
