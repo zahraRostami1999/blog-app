@@ -10,7 +10,7 @@ function Post(props) {
       </div>
       <div className={styled.postTitle}>{props.content.title}</div>
       <div className={styled.postAuthor}>{props.content.author}</div>
-      <div className={styled.postContent}>This is the first post in our API</div>
+      <div className={styled.postContent}>{props.content.content}</div>
       <div className={styled.postTime}>5 minutes</div>
     </div>
   );
