@@ -5,6 +5,7 @@
         "data": [
             {
                 "id": 1,
+                "cover": "",
                 "title": "First Post",
                 "author": "John Doe",
                 "content": "This is the first post in our API.",
@@ -12,6 +13,7 @@
             },
             {
                 "id": 2,
+                "cover": "",
                 "title": "Second Post",
                 "author": "Jane Smith",
                 "content": "This is the second post in our API.",
@@ -19,6 +21,7 @@
             },
             {
                 "id": 3,
+                "cover": "",
                 "title": "Third Post",
                 "author": "Bob Johnson",
                 "content": "This is the third post in our API.",
@@ -26,6 +29,7 @@
             },
             {
                 "id": 4,
+                "cover": "",
                 "title": "Fourth Post",
                 "author": "Alice Wilson",
                 "content": "This is the fourth post in our API.",
@@ -33,6 +37,7 @@
             },
             {
                 "id": 5,
+                "cover": "",
                 "title": "Fifth Post",
                 "author": "Charlie Brown",
                 "content": "This is the fifth post in our API.",
@@ -40,6 +45,7 @@
             },
             {
                 "id": 6,
+                "cover": "",
                 "title": "Sixth Post",
                 "author": "David Green",
                 "content": "This is the sixth post in our API.",
@@ -47,6 +53,7 @@
             },
             {
                 "id": 7,
+                "cover": "",
                 "title": "Seventh Post",
                 "author": "Emily Davis",
                 "content": "This is the seventh post in our API.",
@@ -54,6 +61,7 @@
             },
             {
                 "id": 8,
+                "cover": "",
                 "title": "Eighth Post",
                 "author": "Frank Wilson",
                 "content": "This is the eighth post in our API.",
