@@ -1,0 +1,56 @@
+{
+    "PostAPI":{
+        "status": "True",
+        "message": "Welcome to the REST API!",
+        "data": [
+            {
+                "id": 1,
+                "title": "First Post",
+                "author": "John Doe",
+                "content": "This is the first post in our API."
+            },
+            {
+                "id": 2,
+                "title": "Second Post",
+                "author": "Jane Smith",
+                "content": "This is the second post in our API."
+            },
+            {
+                "id": 3,
+                "title": "Third Post",
+                "author": "Bob Johnson",
+                "content": "This is the third post in our API."
+            },
+            {
+                "id": 4,
+                "title": "Fourth Post",
+                "author": "Alice Wilson",
+                "content": "This is the fourth post in our API."
+            },
+            {
+                "id": 5,
+                "title": "Fifth Post",
+                "author": "Charlie Brown",
+                "content": "This is the fifth post in our API."
+            },
+            {
+                "id": 6,
+                "title": "Sixth Post",
+                "author": "David Green",
+                "content": "This is the sixth post in our API."
+            },
+            {
+                "id": 7,
+                "title": "Seventh Post",
+                "author": "Emily Davis",
+                "content": "This is the seventh post in our API."
+            },
+            {
+                "id": 8,
+                "title": "Eighth Post",
+                "author": "Frank Wilson",
+                "content": "This is the eighth post in our API."
+            }
+        ]
+    }
+}
