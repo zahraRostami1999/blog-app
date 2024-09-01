@@ -7,6 +7,7 @@
 }
 
 .postBadge{
+    width: 30%;
     background-color: red;
 }
 
@@ -44,6 +45,8 @@
 }
 
 .postFooter{
+    font-size: small;
+    color: rgb(32, 32, 32);
     width: 100%;
     display: flex;
     justify-content: center;
