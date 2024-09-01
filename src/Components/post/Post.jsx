@@ -11,7 +11,7 @@ function Post(props) {
       <div className={styled.postTitle}>{props.content.title}</div>
       <div className={styled.postAuthor}>{props.content.author}</div>
       <div className={styled.postContent}>{props.content.content}</div>
-      <div className={styled.postTime}>5 minutes</div>
+      <div className={styled.postTime}>{props.content.readingTime}</div>
     </div>
   );
 }
