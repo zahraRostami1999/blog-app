@@ -5,6 +5,7 @@ function Post_list() {
   let postContent = [
     {
       id: 1,
+      cover: "",
       title: "Post 1",
       content: "This is the content of Post 1",
       author: "John Doe",
@@ -12,6 +13,7 @@ function Post_list() {
     },
     {
       id: 2,
+      cover: "",
       title: "Post 2",
       content: "This is the content of Post 2",
       author: "Jane Doe",
@@ -19,6 +21,7 @@ function Post_list() {
     },
     {
       id: 3,
+      cover: "",
       title: "Post 3",
       content: "This is the content of Post 3",
       author: "Alice Smith",
@@ -26,6 +29,7 @@ function Post_list() {
     },
     {
       id: 4,
+      cover: "",
       title: "Post 4",
       content: "This is the content of Post 4",
       author: "Bob Johnson",
@@ -33,6 +37,7 @@ function Post_list() {
     },
     {
       id: 5,
+      cover: "",
       title: "Post 5",
       content: "This is the content of Post 5",
       author: "Emily Davis",
@@ -40,6 +45,7 @@ function Post_list() {
     },
     {
       id: 6,
+      cover: "",
       title: "Post 6",
       content: "This is the content of Post 6",
       author: "Charlie Wilson",
@@ -47,6 +53,7 @@ function Post_list() {
     },
     {
       id: 7,
+      cover: "",
       title: "Post 7",
       content: "This is the content of Post 7",
       author: "David Brown",
@@ -54,6 +61,7 @@ function Post_list() {
     },
     {
       id: 8,
+      cover: "",
       title: "Post 8",
       content: "This is the content of Post 8",
       author: "Eric Taylor",
