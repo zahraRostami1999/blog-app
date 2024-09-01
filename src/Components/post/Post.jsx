@@ -9,9 +9,9 @@ function Post() {
         <img src={cover1} alt="cover" />
       </div>
       <div className={styled.postTitle}>Post</div>
-      <div></div>
-      <div></div>
-      <div></div>
+      <div className={styled.postAuthor}></div>
+      <div className={styled.postContent}></div>
+      <div className={styled.postTime}></div>
     </div>
   );
 }
