@@ -69,7 +69,7 @@ function Post_list() {
         </div>
         <div className={styled.list}>
           {postContent.map((result) => (
-            <Post />
+            <Post content="result"/>
           ))}
         </div>
       </div>
