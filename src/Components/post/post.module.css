@@ -34,9 +34,17 @@
 }
 
 .postAuthor{
+    width: 60%;
     background-color: green;
 }
 
 .postTime{
+    width: 30%;
     background-color: blue;
+}
+
+.postFooter{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
