@@ -41,6 +41,7 @@ function Post_list() {
     },
     {
       id: 5,
+      badge: "Design",
       cover: "",
       title: "Post 5",
       content: "This is the content of Post 5",
