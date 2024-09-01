@@ -4,7 +4,7 @@ import cover1 from "./../../assets/image/post1.png";
 function Post(props) {
   return (
     <div className={styled.postWrapper}>
-      <div className={styled.postId}>{props.content.postId}</div>
+      <div className={styled.postId}>{props.content.id}</div>
       <div className={styled.postImg}>
         <img src={cover1} alt="cover" />
       </div>
