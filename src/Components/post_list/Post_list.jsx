@@ -5,6 +5,7 @@ function Post_list() {
   let postContent = [
     {
       id: 1,
+      badge: "Design",
       cover: "",
       title: "Post 1",
       content: "This is the content of Post 1",
@@ -13,6 +14,7 @@ function Post_list() {
     },
     {
       id: 2,
+      badge: "Design",
       cover: "",
       title: "Post 2",
       content: "This is the content of Post 2",
@@ -21,6 +23,7 @@ function Post_list() {
     },
     {
       id: 3,
+      badge: "Design",
       cover: "",
       title: "Post 3",
       content: "This is the content of Post 3",
@@ -29,6 +32,7 @@ function Post_list() {
     },
     {
       id: 4,
+      badge: "Design",
       cover: "",
       title: "Post 4",
       content: "This is the content of Post 4",
@@ -45,6 +49,7 @@ function Post_list() {
     },
     {
       id: 6,
+      badge: "Design",
       cover: "",
       title: "Post 6",
       content: "This is the content of Post 6",
@@ -53,6 +58,7 @@ function Post_list() {
     },
     {
       id: 7,
+      badge: "Design",
       cover: "",
       title: "Post 7",
       content: "This is the content of Post 7",
@@ -61,6 +67,7 @@ function Post_list() {
     },
     {
       id: 8,
+      badge: "Design",
       cover: "",
       title: "Post 8",
       content: "This is the content of Post 8",
