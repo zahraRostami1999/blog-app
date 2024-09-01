@@ -9,7 +9,7 @@ function Post(props) {
         <img src={cover1} alt="cover" />
       </div>
       <div className={styled.postTitle}>{props.content.title}</div>
-      <div className={styled.postAuthor}>Bob Johnson</div>
+      <div className={styled.postAuthor}>{props.content.author}</div>
       <div className={styled.postContent}>This is the first post in our API</div>
       <div className={styled.postTime}>5 minutes</div>
     </div>
