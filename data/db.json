@@ -5,6 +5,7 @@
         "data": [
             {
                 "id": 1,
+                "badge": "Design",
                 "cover": "",
                 "title": "First Post",
                 "author": "John Doe",
@@ -13,6 +14,7 @@
             },
             {
                 "id": 2,
+                "badge":"Design",
                 "cover": "",
                 "title": "Second Post",
                 "author": "Jane Smith",
@@ -21,6 +23,7 @@
             },
             {
                 "id": 3,
+                "badge":"Design",
                 "cover": "",
                 "title": "Third Post",
                 "author": "Bob Johnson",
@@ -30,6 +33,7 @@
             {
                 "id": 4,
                 "cover": "",
+                "badge":"Design",
                 "title": "Fourth Post",
                 "author": "Alice Wilson",
                 "content": "This is the fourth post in our API.",
@@ -37,6 +41,7 @@
             },
             {
                 "id": 5,
+                "badge":"Design",
                 "cover": "",
                 "title": "Fifth Post",
                 "author": "Charlie Brown",
@@ -45,6 +50,7 @@
             },
             {
                 "id": 6,
+                "badge":"Design",
                 "cover": "",
                 "title": "Sixth Post",
                 "author": "David Green",
@@ -53,6 +59,7 @@
             },
             {
                 "id": 7,
+                "badge":"Design",
                 "cover": "",
                 "title": "Seventh Post",
                 "author": "Emily Davis",
@@ -61,6 +68,7 @@
             },
             {
                 "id": 8,
+                "badge":"Design",
                 "cover": "",
                 "title": "Eighth Post",
                 "author": "Frank Wilson",
