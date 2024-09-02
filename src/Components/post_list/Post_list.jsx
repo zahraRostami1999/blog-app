@@ -6,6 +6,12 @@ function Post_list() {
 
   const [postContent, setpostContent] = useState([])
 
+  useEffect( ()=>{
+    [
+      
+    ]
+  },[]);
+
 
   // let postContent = [
   //   {
