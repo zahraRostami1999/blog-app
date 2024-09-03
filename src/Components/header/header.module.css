@@ -61,6 +61,7 @@
     border: 1px solid red;
     border-radius: 200px;
     width: 15%;
+    margin-right: 15px;
   }
 
 .switch{
