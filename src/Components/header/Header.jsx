@@ -16,6 +16,7 @@ function Header(props) {
         <div className={styled.navbarContainer}>
           <div className={styled.navbar}>
             <a href="#home">Home</a>
+            <a href="#about">About Us</a>
           </div>
         </div>
         <div className={styled.switch}> switch</div>
