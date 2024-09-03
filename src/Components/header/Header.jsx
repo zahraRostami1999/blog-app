@@ -9,7 +9,7 @@ function Header(props) {
                 <div className={styled.logoImg}>
                     <img src={logo} alt="logo" />
                 </div>
-                <div className={styled.logoTitle}><h2>{props.blogTitle}</h2></div>
+                <div className={styled.logoTitle}><h3>{props.blogTitle}</h3></div>
             </div>
             <div className={styled.navbar}>Navbar</div>
             <div className={styled.switch}> switch
