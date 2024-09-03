@@ -37,9 +37,12 @@
     width: 100%;
 }
 
-.navbar{
-
-    width: 80%;
+.navbarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 114, 114);
+    width: 70%;
 }
 
 .switch{
