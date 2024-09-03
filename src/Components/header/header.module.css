@@ -42,19 +42,25 @@
     justify-content: start;
     align-items: center;
     background-color: rgb(230, 114, 114);
-    width: 50%;
+    width: 70%;
     padding: 0 30px;
+}
+
+.navbar{
+    width: 90%;
 }
 
   
 .navbarContainer a {
     float: left;
-    font-size: 16px;
+    font-size: 13px;
     text-align: center;
     padding: 14px 16px;
     color: rgb(51, 50, 50);
     text-decoration: none;
     border: 1px solid red;
+    /* border-radius: 200px; */
+    width: 30%;
   }
 
 .switch{
