@@ -1,3 +1,10 @@
-.postPage{
-    background-color: green;
+.postContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.postSection{
+    width: 85%;
+    background-color: rgb(209, 225, 209);
 }
