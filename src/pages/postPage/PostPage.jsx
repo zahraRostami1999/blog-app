@@ -3,7 +3,7 @@ import Header from "../../Components/header/Header";
 
 function PostPage() {
   return (
-    <div className={styled.container}>
+    <div>
       <div className={styled.header}>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       </div>
