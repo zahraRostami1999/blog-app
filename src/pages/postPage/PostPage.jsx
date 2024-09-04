@@ -1,4 +1,4 @@
-
+import styled from './postPage.module.css'
 
 function PostPage(){
     return(
