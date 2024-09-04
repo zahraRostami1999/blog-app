@@ -9,7 +9,7 @@ function Post_list() {
   useEffect(() => {
 
     axios.get('http://localhost:8000/PostAPI').then((result) => {
-      setpostContent(result.data.data);
+      setpostContent(result.data);
     })
 
   }, []);
