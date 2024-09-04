@@ -1,5 +1,5 @@
 import styled from './postPage.module.css';
-
+import Header from '../../Components/header/Header';
 
 function PostPage(){
     return(
