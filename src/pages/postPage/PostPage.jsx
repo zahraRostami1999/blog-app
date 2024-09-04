@@ -7,7 +7,7 @@ function PostPage() {
       <div className={styled.header}>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       </div>
-      <div>
+      <div className={styled.post}>
         <h1>Post Page</h1>
       </div>
     </div>
