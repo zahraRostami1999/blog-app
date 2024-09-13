@@ -21,7 +21,7 @@ function Post_list() {
         </div>
         <div className={styled.list}>
           {postContent.map((result) => (
-            <Link to='/Post'>
+            <Link to={`/Post/${result.id}`}>
               <Post content={result} />
             </Link>
           ))}
