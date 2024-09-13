@@ -24,7 +24,10 @@ function PostPage() {
             <h5>{post.author}</h5>
             <h5>{post.readingTime}</h5>
           </div>
-          
+          <div className={styled.postImg}>
+
+          </div>
+
         </div>
       </div>
     </div>
