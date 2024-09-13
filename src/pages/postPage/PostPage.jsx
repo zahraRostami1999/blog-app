@@ -1,7 +1,7 @@
 import styled from "./postPage.module.css";
 import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
-
+import axios from "axios";
 
 function PostPage() {
   const params = useParams();
