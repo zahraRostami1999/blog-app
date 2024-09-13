@@ -6,6 +6,9 @@ import { useParams } from "react-router-dom";
 function PostPage() {
   const params = useParams();
 
+  axios.get(`http://localhost:8000/PostAPI/${params.id}`).then((result) => {
+    console.log(result);
+  });
 
   return (
     <div>
