@@ -9,7 +9,7 @@ function PostPage() {
   cost [post , setpost] = useState();
 
   axios.get(`http://localhost:8000/PostAPI/${params.id}`).then((result) => {
-    console.log(result);
+    setpost(result.data) ;
   });
 
   return (
