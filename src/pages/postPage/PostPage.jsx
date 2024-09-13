@@ -1,7 +1,12 @@
 import styled from "./postPage.module.css";
 import Header from "../../Components/header/Header";
+import { useParams } from "react-router-dom";
+
 
 function PostPage() {
+  const params = useParams();
+
+
   return (
     <div>
       <div className={styled.header}>
@@ -9,7 +14,7 @@ function PostPage() {
       </div>
       <div className={styled.postContainer}>
         <div className={styled.postSection}>
-        <h1>Post Page</h1>
+          <h1>fcdvgxf</h1>
         </div>
       </div>
     </div>
