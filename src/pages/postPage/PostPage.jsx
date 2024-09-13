@@ -28,7 +28,7 @@ function PostPage() {
             <img src="" alt="postImg" />
           </div>
           <div className={styled.postContent}>
-
+            <p></p>
           </div>
         </div>
       </div>
