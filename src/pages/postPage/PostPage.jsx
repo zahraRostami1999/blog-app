@@ -6,10 +6,10 @@ import { useState } from "react";
 
 function PostPage() {
   const params = useParams();
-  cost [post , setpost] = useState();
+  const [post, setpost] = useState({});
 
   axios.get(`http://localhost:8000/PostAPI/${params.id}`).then((result) => {
-    setpost(result.data) ;
+    setpost(result.data);
   });
 
   return (
@@ -19,7 +19,9 @@ function PostPage() {
       </div>
       <div className={styled.postContainer}>
         <div className={styled.postSection}>
-          <h1>fcdvgxf</h1>
+          <div>
+            <h1>{post.title}</h1>
+          </div>
         </div>
       </div>
     </div>
