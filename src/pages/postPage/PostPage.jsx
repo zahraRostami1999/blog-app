@@ -25,7 +25,7 @@ function PostPage() {
             <h5>{post.readingTime}</h5>
           </div>
           <div className={styled.postImg}>
-
+            <img src="" alt="postImg" />
           </div>
           <div className={styled.postContent}>
 
