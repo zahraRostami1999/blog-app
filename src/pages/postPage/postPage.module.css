@@ -10,6 +10,8 @@
 }
 
 .postTitle{
+    display: flex;
+    padding: 20px 50px;
     background-color: blue;
 }
 
