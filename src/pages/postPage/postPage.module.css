@@ -8,3 +8,15 @@
     width: 85%;
     background-color: rgb(209, 225, 209);
 }
+
+.postTitle{
+    background-color: blue;
+}
+
+.postImg{
+    background-color: rgb(62, 148, 92);
+}
+
+.postContent{
+    background-color: rgb(237, 226, 31);
+}
