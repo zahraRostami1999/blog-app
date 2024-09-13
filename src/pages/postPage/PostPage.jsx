@@ -2,9 +2,11 @@ import styled from "./postPage.module.css";
 import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { useState } from "react";
 
 function PostPage() {
   const params = useParams();
+  cost [post , setpost] = useState();
 
   axios.get(`http://localhost:8000/PostAPI/${params.id}`).then((result) => {
     console.log(result);
