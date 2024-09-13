@@ -1,4 +1,5 @@
 import styled from "./postPage.module.css";
+import cover1 from "./../../assets/image/post1.png";
 import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -25,10 +26,10 @@ function PostPage() {
             <h5>{post.readingTime}</h5>
           </div>
           <div className={styled.postImg}>
-            <img src="" alt="postImg" />
+            <img src={cover1} alt="postImg" />
           </div>
           <div className={styled.postContent}>
-            <p>post.content</p>
+            <p>{post.content}</p>
           </div>
         </div>
       </div>
