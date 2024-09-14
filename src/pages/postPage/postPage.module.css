@@ -12,13 +12,10 @@
 .postTitle{
     display: flex;
     padding: 20px 50px;
-    background-color: blue;
 }
 
 .postImg{
-
     width: 1200px;
-    background-color: rgb(62, 148, 92);
 }
 
 .postImg img{
