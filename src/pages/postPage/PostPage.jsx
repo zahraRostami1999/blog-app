@@ -4,6 +4,7 @@ import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useState } from "react";
+import { Fragment } from "react";
 
 function PostPage() {
   const params = useParams();
@@ -14,7 +15,7 @@ function PostPage() {
   });
 
   return (
-    <div>
+    <>
       <div className={styled.header}>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       </div>
@@ -33,7 +34,7 @@ function PostPage() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
