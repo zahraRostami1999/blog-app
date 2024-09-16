@@ -1,4 +1,4 @@
-import styled from'./footer.module.css'
+import styled from'./footer.module.css';
 
 function Footer(props){
     return(
