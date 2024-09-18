@@ -3,21 +3,25 @@ import cover1 from "./../../assets/image/post1.png";
 import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
+import { useEffect } from "react";
 import { useState } from "react";
 import { Fragment } from "react";
 
 function PostPage() {
   const params = useParams();
   const [post, setpost] = useState({});
+  const [isLoading, setisLoading] = useState(false);
 
-  axios
-    .get(`http://localhost:8000/PostAPI/${params.id}`)
-    .then((result) => {
-      setpost(result.data);
-    })
-    .catch((error) => {
-      console.log("Error fetching data", error);
-    });
+  useEffect(() => {
+    axios
+      .get(`http://localhost:8000/PostAPI/${params.id}`)
+      .then((result) => {
+        setpost(result.data);
+      })
+      .catch((error) => {
+        console.log("Error fetching data", error);
+      });
+  });
 
   return (
     <>
