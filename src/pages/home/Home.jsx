@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Header blogTitle="Zahra Rostami(XanimQiz)'s Blog" />
-      <Post_list />
+      <h1>Hello My friend</h1>
       <Footer title="..." />
     </>
   );
