@@ -10,9 +10,14 @@ function PostPage() {
   const params = useParams();
   const [post, setpost] = useState({});
 
-  axios.get(`http://localhost:8000/PostAPI/${params.id}`).then((result) => {
-    setpost(result.data);
-  });
+  axios
+    .get(`http://localhost:8000/PostAPI/${params.id}`)
+    .then((result) => {
+      setpost(result.data);
+    })
+    .catch((error) => {
+      console.log("Error fetching data", error);
+    });
 
   return (
     <>
