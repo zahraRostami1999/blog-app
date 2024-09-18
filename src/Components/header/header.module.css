@@ -12,11 +12,13 @@
     margin: 0px 20px;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     padding : 5px 10px;
 }
 
-.logo{
+.logoContainer{
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 30%;
     padding: 5px;
@@ -39,15 +41,16 @@
 
 .navbarContainer{
     display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-left: 150px;
-    width: 50%;
+    width: 40%;
     padding: 0 10px;
 }
 
 .navbar{
-    width: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
 
   
@@ -60,7 +63,7 @@
     text-decoration: none;
     border: 1px solid #f2dbec;
     border-radius: 200px;
-    width: 10%;
+    width: 15%;
     margin-right: 15px;
     font-weight: bold;
   }
@@ -68,7 +71,3 @@
   .navbarContainer a:hover{
     background-color: #f2dbec;
   }
-
-.switch{
-    width: 10%;
-}
