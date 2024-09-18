@@ -17,6 +17,7 @@ function Header(props) {
         <div className={styled.navbarContainer}>
           <div className={styled.navbar}>
             <Link to="/">Home</Link>
+            <Link to="/Posts">Posts</Link>
             <Link to="/about">About Us</Link>
           </div>
         </div>
