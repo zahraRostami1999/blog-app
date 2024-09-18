@@ -3,6 +3,7 @@ import styled from "./list.module.css";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import Spinner from "../spinner/Spinner";
 
 function Post_list() {
   const [postContent, setpostContent] = useState([]);
@@ -25,7 +26,7 @@ function Post_list() {
   return (
     <div className="container">
       {isLoading ? (
-        "Loading..."
+        <Spinner />
       ) : (
         <div className={styled.postList}>
           <div>
