@@ -10,9 +10,11 @@
 }
 
 .postTitle{
+    background-color: cyan;
     display: flex;
     padding: 20px 50px;
 }
+
 
 .postImg{
     width: 1200px;
@@ -21,3 +23,5 @@
 .postImg img{
     width: 40%;
 }
+
+
