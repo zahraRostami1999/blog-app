@@ -1,7 +1,5 @@
 import Header from "../../Components/header/Header";
-import Footer from "../../Components/footer/Footer";
 import { Fragment } from "react";
-import styled from "./home.module.css";
 
 function Home() {
   return (
