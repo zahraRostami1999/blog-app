@@ -8,9 +8,14 @@ function Post_list() {
   const [postContent, setpostContent] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:8000/PostAPI").then((result) => {
-      setpostContent(result.data);
-    });
+    axios
+      .get("http://localhost:8000/PostAPI")
+      .then((result) => {
+        setpostContent(result.data);
+      })
+      .catch((error) => {
+        console.log("Error fetching data", error);
+      });
   }, []);
 
   return (
