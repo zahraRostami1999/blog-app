@@ -13,22 +13,26 @@ function PostPage() {
   const [isLoading, setisLoading] = useState(false);
 
   useEffect(() => {
+    setisLoading(true);
     axios
       .get(`http://localhost:8000/PostAPI/${params.id}`)
       .then((result) => {
         setpost(result.data);
+        setisLoading(false);
       })
       .catch((error) => {
         console.log("Error fetching data", error);
+        setisLoading(false);
       });
-  });
+  }, [params.id]);
 
   return (
     <>
       <div className={styled.header}>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       </div>
-      <div className={styled.postContainer}>
+
+      {isLoading ? "Loading..." : (      <div className={styled.postContainer}>
         <div className={styled.postSection}>
           <h2>{post.title}</h2>
           <div className={styled.postTitle}>
@@ -42,7 +46,8 @@ function PostPage() {
             <p>{post.content}</p>
           </div>
         </div>
-      </div>
+      </div>)}
+
     </>
   );
 }
