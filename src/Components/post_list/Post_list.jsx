@@ -22,7 +22,7 @@ function Post_list() {
     <div className="container">
       <div className={styled.postList}>
         <div>
-          <h2>Post lists</h2>
+          <h2>Posts list</h2>
         </div>
         <div className={styled.list}>
           {postContent.map((result) => (
