@@ -6,7 +6,7 @@ import { Fragment } from "react";
 function Home() {
   return (
     <>
-      <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
+      <Header blogTitle="Zahra Rostami(XanimQiz)'s Blog" />
       <Post_list />
       <Footer title="..." />
     </>
