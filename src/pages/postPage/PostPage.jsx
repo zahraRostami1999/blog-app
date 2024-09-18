@@ -6,6 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Fragment } from "react";
+import Spinner from '../../Components/spinner/Spinner';
 
 function PostPage() {
   const params = useParams();
@@ -32,7 +33,7 @@ function PostPage() {
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       </div>
 
-      {isLoading ? "Loading..." : (      <div className={styled.postContainer}>
+      {isLoading ? <Spinner /> : (      <div className={styled.postContainer}>
         <div className={styled.postSection}>
           <h2>{post.title}</h2>
           <div className={styled.postTitle}>
