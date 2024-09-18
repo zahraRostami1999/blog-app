@@ -1,5 +1,5 @@
 import styled from "./header.module.css";
-import logo from "./../../assets/image/Blog-app-logo.png";
+import logo from "./../../assets/image/profile.png";
 import {Link} from 'react-router-dom';
 
 function Header(props) {
