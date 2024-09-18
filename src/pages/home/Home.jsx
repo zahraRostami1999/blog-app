@@ -8,7 +8,7 @@ function Home() {
     <>
       <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
       <Post_list />
-      <Footer title="You're the reason I get out of bed in the morning... well, after snoozing a few times." />
+      <Footer title="..." />
     </>
   );
 }
