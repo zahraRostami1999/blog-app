@@ -12,20 +12,25 @@ function CreatePost() {
   });
 
   const handleChangePost = (e) => {
-    setCreatePost((prevState) => ({ 
-      ...prevState, 
-      [e.target.name]: e.target.value }));
-      console.log(createPost);
-      
+    setCreatePost((prevState) => ({
+      ...prevState,
+      [e.target.name]: e.target.value,
+    }));
   };
 
   return (
     <>
       <div>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
-        <Input label="Title" name="title" handleChange={handleChangePost} />
-        <Input label="Author" name="author" handleChange={handleChangePost} />
-        <Input label="ReadingTime" name="readingTime" handleChange={handleChangePost} />
+        <div className={styled.createPostWrapper}>
+          <Input label="Title" name="title" handleChange={handleChangePost} />
+          <Input label="Author" name="author" handleChange={handleChangePost} />
+          <Input
+            label="ReadingTime"
+            name="readingTime"
+            handleChange={handleChangePost}
+          />
+        </div>
       </div>
     </>
   );
