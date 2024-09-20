@@ -2,6 +2,7 @@ import styled from "./createPost.module.css";
 import { Fragment } from "react";
 import Header from "../../Components/header/Header";
 import Input from "../../Components/input/Input";
+import Textarea from "../../Components/textArea/Textarea";
 import { useState } from "react";
 
 function CreatePost() {
@@ -41,6 +42,7 @@ function CreatePost() {
             type="text"
             handleChange={handleChangePost}
           />
+          <Textarea label="Text" name="text" />
         </div>
       </div>
     </>
