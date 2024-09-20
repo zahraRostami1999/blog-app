@@ -6,7 +6,7 @@ import axios from "axios";
 import { useEffect } from "react";
 import { useState } from "react";
 import { Fragment } from "react";
-import Spinner from '../../Components/spinner/Spinner';
+import Spinner from "../../Components/spinner/Spinner";
 
 function PostPage() {
   const params = useParams();
@@ -29,26 +29,26 @@ function PostPage() {
 
   return (
     <>
-      <div className={styled.header}>
-        <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
-      </div>
-
-      {isLoading ? <Spinner /> : (      <div className={styled.postContainer}>
-        <div className={styled.postSection}>
-          <h2>{post.title}</h2>
-          <div className={styled.postTitle}>
-            <h5>{post.author}</h5>
-            <h5>{post.readingTime}</h5>
-          </div>
-          <div className={styled.postImg}>
-            <img src={cover1} alt="postImg" />
-          </div>
-          <div className={styled.postContent}>
-            <p>{post.content}</p>
+      <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
+      {isLoading ? (
+        <Spinner />
+      ) : (
+        <div className={styled.postContainer}>
+          <div className={styled.postSection}>
+            <h2>{post.title}</h2>
+            <div className={styled.postTitle}>
+              <h5>{post.author}</h5>
+              <h5>{post.readingTime}</h5>
+            </div>
+            <div className={styled.postImg}>
+              <img src={cover1} alt="postImg" />
+            </div>
+            <div className={styled.postContent}>
+              <p>{post.content}</p>
+            </div>
           </div>
         </div>
-      </div>)}
-
+      )}
     </>
   );
 }
