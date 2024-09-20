@@ -17,19 +17,16 @@ function Header(props) {
                 <Link to="/">Home</Link>
                 <Link to="/Posts">Posts</Link>
                 <Link to="/Create-Post">Create Post</Link>
-                <Link to="/about">About Us</Link>
+                <Link to="/contactMe">Contact Me</Link>
               </div>
             </div>
           </div>
           <div className={styled.secundRow}>
-            <div className={styled.blogTitleWrapper}>
             <h1>{props.blogTitle}</h1>
-          </div>
           </div>
         </div>
       </div>
     </>
- 
   );
 }
 
