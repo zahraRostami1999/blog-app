@@ -4,7 +4,7 @@ import { Fragment } from "react";
 function Home() {
   return (
     <>
-        <Header blogTitle="Zahra Rostami(XanimQiz)'s Blog" />
+        <Header blogTitle="Zahra Rostami(XanimQiz)" />
         <h1>Hello My friend</h1>
     </>
   );
