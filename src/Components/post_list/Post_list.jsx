@@ -29,9 +29,6 @@ function Post_list() {
         <Spinner />
       ) : (
         <div className={styled.postList}>
-          <div>
-            <h2>Posts list</h2>
-          </div>
           <div className={styled.list}>
             {postContent.map((result) => (
               <Link to={`/Post/${result.id}`}>
