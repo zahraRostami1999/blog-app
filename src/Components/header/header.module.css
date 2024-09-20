@@ -17,9 +17,8 @@
 }
 
 .headerName {
-  width: 18%;
+  width: 20%;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -27,6 +26,7 @@
   display: flex;
   width: 40%;
   padding: 0 10px;
+  height: 60px;
 }
 
 .navbar {
@@ -44,24 +44,22 @@
   padding: 12px 15px;
   color: rgb(51, 50, 50);
   text-decoration: none;
-  border: 1px solid #f2dbec;
-  border-radius: 200px;
-  width: 15%;
+  width: 13%;
   margin-right: 15px;
   font-weight: bold;
 }
 
 .navbarContainer a:hover {
-  background-color: #f2dbec;
+  border-bottom: 1px solid #2e2b2d;
 }
 
-.blogTitleWrapper {
-  margin: 30px 0;
+.secundRow {
+  margin: 20px 0;
   border-top: 2px solid #2e2b2d;
   border-bottom: 2px solid #2e2b2d;
 }
 
-.blogTitleWrapper h1{
+.secundRow h1{
     font-size: 95px;
 }
 
