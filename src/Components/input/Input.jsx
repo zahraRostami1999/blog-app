@@ -6,7 +6,7 @@ function Input(props) {
     <>
       <div>
         <label>{props.label}</label>
-        <input name={props.name} onChange={props.handleChange} />
+        <input name={props.name} type={props.type} onChange={props.handleChange} />
       </div>
     </>
   );
