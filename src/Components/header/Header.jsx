@@ -12,6 +12,9 @@ function Header(props) {
           </div>
           <div className={styled.logoTitle}>
             <h4>{props.blogName}</h4>
+            <div className={styled.blogTitleWrapper}>
+              <h1>{styled.blogTitle}</h1>
+            </div>
           </div>
         </div>
 
