@@ -6,7 +6,7 @@ import Post_list from "../../Components/post_list/Post_list";
 function PostsList() {
   return (
     <>
-      <Header blogTitle="Zahra Rostami(XanimQiz)'s Blog" />
+      <Header blogName="Zahra Rostami (XanimQiz)' Blog" blogTitle="Posts List" />
       <Post_list />
       <Footer title="..." />
     </>
