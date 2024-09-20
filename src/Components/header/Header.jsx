@@ -11,7 +11,7 @@ function Header(props) {
             <img src={logo} alt="logo" />
           </div>
           <div className={styled.logoTitle}>
-            <h3>{props.blogTitle}</h3>
+            <h4>{props.blogName}</h4>
           </div>
         </div>
 
