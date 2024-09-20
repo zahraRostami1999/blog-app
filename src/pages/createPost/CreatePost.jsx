@@ -39,7 +39,7 @@ const sendNewPost = (e) => {
   return (
     <>
       <div>
-        <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
+        <Header blogName="Zahra Rostami (XanimQiz)' Blog" blogTitle="Create New Post" />
         <div className={styled.createPostWrapper}>
           <Input
             label="Title"
