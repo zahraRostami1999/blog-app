@@ -23,11 +23,22 @@ function CreatePost() {
       <div>
         <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
         <div className={styled.createPostWrapper}>
-          <Input label="Title" name="title" handleChange={handleChangePost} />
-          <Input label="Author" name="author" handleChange={handleChangePost} />
+          <Input
+            label="Title"
+            name="title"
+            type="text"
+            handleChange={handleChangePost}
+          />
+          <Input
+            label="Author"
+            name="author"
+            type="text"
+            handleChange={handleChangePost}
+          />
           <Input
             label="ReadingTime"
             name="readingTime"
+            type="text"
             handleChange={handleChangePost}
           />
         </div>
