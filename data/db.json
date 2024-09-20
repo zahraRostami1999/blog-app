@@ -1,7 +1,7 @@
 {
   "PostAPI": [
     {
-      "id": 1,
+      "id": "1",
       "badge": "Design",
       "cover": "",
       "title": "First Post",
@@ -10,7 +10,7 @@
       "readingTime": "5 minutes"
     },
     {
-      "id": 2,
+      "id": "2",
       "badge": "Design",
       "cover": "",
       "title": "Second Post",
@@ -19,7 +19,7 @@
       "readingTime": "2 minutes"
     },
     {
-      "id": 3,
+      "id": "3",
       "badge": "Design",
       "cover": "",
       "title": "Third Post",
@@ -28,7 +28,7 @@
       "readingTime": "5 minutes"
     },
     {
-      "id": 4,
+      "id": "4",
       "cover": "",
       "badge": "Design",
       "title": "Fourth Post",
@@ -37,7 +37,7 @@
       "readingTime": "8 minutes"
     },
     {
-      "id": 5,
+      "id": "5",
       "badge": "Design",
       "cover": "",
       "title": "Fifth Post",
@@ -46,7 +46,7 @@
       "readingTime": "1 minutes"
     },
     {
-      "id": 6,
+      "id": "6",
       "badge": "Design",
       "cover": "",
       "title": "Sixth Post",
@@ -55,7 +55,7 @@
       "readingTime": "2 minutes"
     },
     {
-      "id": 7,
+      "id": "7",
       "badge": "Design",
       "cover": "",
       "title": "Seventh Post",
@@ -64,7 +64,7 @@
       "readingTime": "9 minutes"
     },
     {
-      "id": 8,
+      "id": "8",
       "badge": "Design",
       "cover": "",
       "title": "Eighth Post",
