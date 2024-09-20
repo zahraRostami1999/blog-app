@@ -4,20 +4,37 @@ import Header from "../../Components/header/Header";
 import Input from "../../Components/input/Input";
 import Textarea from "../../Components/textArea/Textarea";
 import { useState } from "react";
+import axios from "axios";
 
 function CreatePost() {
-  const [createPost, setCreatePost] = useState({
+  const [postData, setPostData] = useState({
     title: "",
     author: "",
     readingTime: "",
+    cover:"",
+    content: "",
   });
 
   const handleChangePost = (e) => {
-    setCreatePost((prevState) => ({
+    setPostData((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
     }));
   };
+
+const sendNewPost = (e) => {
+  axios.post("http://localhost:8000/PostAPI", 
+    {
+      id: 9,
+      badge: "Design",
+      cover: postData.cover,
+      title: postData.title,
+      author: postData.author,
+      content: postData.content,
+      readingTime: postData.readingTime
+    }
+  )
+};
 
   return (
     <>
@@ -27,6 +44,12 @@ function CreatePost() {
           <Input
             label="Title"
             name="title"
+            type="text"
+            handleChange={handleChangePost}
+          />
+          <Input
+            label="Cover"
+            name="cover"
             type="text"
             handleChange={handleChangePost}
           />
@@ -42,7 +65,8 @@ function CreatePost() {
             type="text"
             handleChange={handleChangePost}
           />
-          <Textarea label="Text" name="text" />
+          <Textarea label="Text" name="content" />
+          <button onClick={sendNewPost}>Send Post</button>
         </div>
       </div>
     </>
