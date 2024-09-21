@@ -1,0 +1,20 @@
+.row{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.col_25 {
+    float: left;
+    width: 18%;
+    margin-top: 12px;
+  }
+  
+  .col_75 {
+    border: 1px solid #363636;
+    border-radius: 6px;
+    padding: 5px 20px;
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+    min-height: 270px;
+  }
