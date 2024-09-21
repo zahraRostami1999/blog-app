@@ -4,9 +4,9 @@ import { Fragment } from "react";
 function Input(props) {
   return (
     <>
-      <div>
-        <label>{props.label}</label>
-        <input name={props.name} type={props.type} onChange={props.handleChange} />
+      <div className={styled.row}>
+        <label className={styled.col_25}>{props.label}</label>
+        <input className={styled.col_75} name={props.name} type={props.type} onChange={props.handleChange} />
       </div>
     </>
   );
