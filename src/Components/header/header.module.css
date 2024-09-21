@@ -41,10 +41,9 @@
   float: left;
   font-size: 13px;
   text-align: center;
-  padding: 12px 15px;
+  padding: 12px 20px;
   color: rgb(51, 50, 50);
   text-decoration: none;
-  width: 13%;
   margin-right: 15px;
   font-weight: bold;
 }
@@ -62,43 +61,3 @@
 .secundRow h1{
     font-size: 95px;
 }
-
-/* .header{
-    width: 97%;
-}
-
-.container{
-    margin: 0px 20px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding : 5px 10px;
-}
-
-.logoContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 30%;
-    padding: 5px;
-}
-
-.logoImg{
-    width: 30%;
-}
-
-.logoImg img{
-    width: 80%;
-}
-
-.logoTitle{
-    margin-left: 20px;
-    display: flex;
-    justify-content: start;
-    width: 100%;
-}
-
-.blogTitleWrapper{
-    width: 200px;
-    background-color: aqua;
-} */
