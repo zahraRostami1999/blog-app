@@ -4,9 +4,9 @@ import { Fragment } from "react";
 function Textarea(props) {
   return (
     <>
-      <div>
-        <label>{props.label}</label>
-        <textarea name={props.name} onChange={props.handleChange}></textarea>
+      <div className={styled.row}>
+        <label className={styled.col_25}>{props.label}</label>
+        <textarea className={styled.col_75} name={props.name} onChange={props.handleChange}></textarea>
       </div>
     </>
   );
