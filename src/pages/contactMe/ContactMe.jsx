@@ -67,7 +67,8 @@ function ContactMe() {
                 <div className={styled.formGroup}>
                   <label>Phone Number</label>
                   <div className={styled.phoneInput}>
-                    <input type="text" value="+1 012 3456 789" readOnly />
+                    <label> Phone Number</label>
+                    <input type="text" readOnly />
                   </div>
                 </div>
               </div>
