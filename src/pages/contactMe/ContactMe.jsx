@@ -11,7 +11,9 @@ function ContactMe() {
         blogName="Zahra Rostami (XanimQiz)' Blog"
         blogTitle="Contact Me"
       />
-
+      <div className={styled.container}>
+        <div className={styled.wrapper}></div>
+      </div>
     </>
   );
 }
