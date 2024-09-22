@@ -13,8 +13,16 @@ function ContactMe() {
       />
       <div className={styled.container}>
         <div className={styled.wrapper}>
-          <div className={styled.col_40}></div>
-          <div className={styled.col_60}></div>
+          <div className={styled.col_40}>
+            <div className={styled.colContainer}>
+
+            </div>
+          </div>
+          <div className={styled.col_60}>
+            <div className={styled.colContainer}>
+
+            </div>
+          </div>
         </div>
       </div>
     </>
