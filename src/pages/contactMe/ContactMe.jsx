@@ -12,7 +12,10 @@ function ContactMe() {
         blogTitle="Contact Me"
       />
       <div className={styled.container}>
-        <div className={styled.wrapper}></div>
+        <div className={styled.wrapper}>
+          <div className={styled.col_40}></div>
+          <div className={styled.col_60}></div>
+        </div>
       </div>
     </>
   );
