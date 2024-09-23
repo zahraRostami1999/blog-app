@@ -1,3 +1,10 @@
+.container{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .coverContainer{
     padding: 50px 30px;
     display: flex;
