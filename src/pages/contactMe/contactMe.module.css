@@ -72,3 +72,14 @@
   justify-content: space-around;
   align-items: center;
 }
+
+.info button {
+  background-color: rgb(252, 171, 10);
+  border: none;
+  border-radius: 6px;
+}
+
+.info button:hover {
+  border: none;
+  background-color: #fff;
+}
