@@ -21,9 +21,6 @@ function Header(props) {
               </div>
             </div>
           </div>
-          <div className={styled.secundRow}>
-            <h1>{props.blogTitle}</h1>
-          </div>
         </div>
       </div>
     </>
