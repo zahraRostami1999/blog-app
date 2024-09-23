@@ -1,27 +1,56 @@
 .postContainer{
+    margin: 100px 0;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
 .postSection{
-    width: 85%;
-    background-color: rgb(209, 225, 209);
+    padding-bottom: 40px;
+    width: 60%;
+    background-color: rgb(249, 249, 167);
+    border-radius: 20px;
 }
 
 .postTitle{
-    width: 15%;
+    width: 25%;
     display: flex;
     justify-content: space-around;
+    margin-top: 20px;
+    font-size: small;
 }
 
 
 .postImg{
-    width: 1200px;
+    margin: 20px 0;
+    width: 880px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .postImg img{
-    width: 40%;
+    width: 50%;
 }
 
+.postContent{
+    padding: 30px 50px;
+    font-size: large;
+    text-align: left
+}
 
+.backList{
+    width: 100%;
+    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.backList a{
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 12px;
+    font-weight: bold;
+    background-color: rgb(232, 130, 29);
+    color: black;
+}
