@@ -5,16 +5,18 @@
 
 .col_25 {
     float: left;
-    width: 18%;
+    width: 30%;
     margin-top: 12px;
+    font-size: 13px;
+    font-weight: bold;
   }
   
   .col_75 {
-    border: 1px solid #363636;
+    border: 1px solid #6b6a6a;
     border-radius: 6px;
     padding: 5px 20px;
     float: left;
     width: 60%;
     margin-top: 10px;
-    min-height: 270px;
+    min-height: 220px;
   }
