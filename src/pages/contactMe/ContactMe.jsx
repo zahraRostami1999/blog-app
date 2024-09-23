@@ -1,5 +1,7 @@
 import styled from "./contactMe.module.css";
 import Header from "../../Components/header/Header";
+import Input from "../../Components/input/Input";
+import TextArea from "../../Components/textArea/Textarea";
 import { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCoffee } from "@fortawesome/free-solid-svg-icons";
@@ -48,29 +50,13 @@ function ContactMe() {
           </div>
           <div className={styled.col_60}>
             <div className={styled.colContainer}>
-              <div className={styled.formContainer}>
-                <div className={styled.formGroup}>
-                  <label>First Name</label>
-                  <input type="text" placeholder="First Name" />
-                </div>
-
-                <div className={styled.formGroup}>
-                  <label>Last Name</label>
-                  <input type="text" value="Doe" />
-                </div>
-
-                <div className={styled.formGroup}>
-                  <label>Email</label>
-                  <input type="email" placeholder="Email" />
-                </div>
-
-                <div className={styled.formGroup}>
-                  <label>Phone Number</label>
-                  <div className={styled.phoneInput}>
-                    <label> Phone Number</label>
-                    <input type="text" readOnly />
-                  </div>
-                </div>
+              <div className={styled.info}>
+                <Input label="First Name:" name="firstName" type="text" />
+                <Input label="Last Name:" name="lastName" type="text" />
+                <Input label="Email:" name="emailAddress" type="text"/>
+                <Input label="Phone Number:" name="phoneNumber" type="text"/>
+                <TextArea label="Message:" name="message" />
+                <button>Send Message</button>
               </div>
             </div>
           </div>
