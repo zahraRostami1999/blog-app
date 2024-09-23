@@ -1,7 +1,6 @@
 .container {
-  color: rgb(242, 218, 187);
+  color: rgb(68, 67, 67);
   width: 100%;
-
   display: flex;
   justify-content: center;
 }
@@ -15,7 +14,7 @@
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  background-color: rgb(45, 26, 1);  
+  background-color: rgb(168, 229, 255);  
 }
 
 .headerName {
@@ -43,14 +42,14 @@
   float: left;
   font-size: 13px;
   text-align: center;
-  padding: 12px 20px;
-  color: rgb(242, 218, 187);
+  padding: 10px 20px;
+  color: rgb(68, 67, 67);
   text-decoration: none;
   margin-right: 15px;
   font-weight: bold;
 }
 
 .navbarContainer a:hover {
-  border-radius: 12px;
-  border: 1px solid rgb(242, 218, 187);
+  font-size: 14px;
+  color: rgb(53, 53, 53);
 }
