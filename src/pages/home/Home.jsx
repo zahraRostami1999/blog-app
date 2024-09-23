@@ -6,7 +6,7 @@ import cover from "../../assets/image/cover.jpg";
 function Home() {
   return (
     <>
-      <Header blogName="Zahra Rostami(XanimQiz)" blogTitle="THE BLOG" />
+      <Header blogName="Zahra Rostami(XanimQiz)' Blog" />
       <div className={styled.container}>
         <div className={styled.coverContainer}>
           <div className={styled.backgroundCover}>
