@@ -7,7 +7,7 @@
 }
 
 .createPostWrapper {
-  background-color: rgb(188, 250, 212);
+  background-color: rgb(191, 239, 249);
   border-radius: 5px;
   width: 60%;
   padding-top: 30px;
@@ -17,7 +17,7 @@ button {
   width: 40%;
   margin: 20px 0;
   padding: 10px 20px;
-  background-color: #04aa6d;
+  background-color: rgb(1, 153, 184);
   color: black;
   border: 2px solid #fff;
   font-weight: bold;
