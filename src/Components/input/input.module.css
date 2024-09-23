@@ -11,13 +11,15 @@
 
 .col_25 {
     float: left;
-    width: 18%;
+    font-size: 13px;
+    width: 30%;
     margin-top: 12px;
+    font-weight: bold;
   }
   
   .col_75 {
-    border: 1px solid #363636;
-    border-radius: 6px;
+    border: 1px solid #6b6a6a;
+    border-radius: 4px;
     padding: 5px 20px;
     float: left;
     width: 60%;
