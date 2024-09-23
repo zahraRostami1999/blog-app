@@ -7,6 +7,7 @@ import { useEffect } from "react";
 import { useState } from "react";
 import { Fragment } from "react";
 import Spinner from "../../Components/spinner/Spinner";
+import { Link } from "react-router-dom";
 
 function PostPage() {
   const params = useParams();
@@ -29,13 +30,12 @@ function PostPage() {
 
   return (
     <>
-      <Header blogTitle="XanimQiz(Jeyran Qulu)'s Blog" />
+      <Header blogTitle={post.title} />
       {isLoading ? (
         <Spinner />
       ) : (
         <div className={styled.postContainer}>
           <div className={styled.postSection}>
-            <h2>{post.title}</h2>
             <div className={styled.postTitle}>
               <h5>{post.author}</h5>
               <h5>{post.readingTime}</h5>
@@ -45,6 +45,9 @@ function PostPage() {
             </div>
             <div className={styled.postContent}>
               <p>{post.content}</p>
+            </div>
+            <div className={styled.backList}>
+              <Link to="/Posts">See other Posts</Link>
             </div>
           </div>
         </div>
