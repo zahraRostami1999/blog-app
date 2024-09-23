@@ -7,18 +7,20 @@
 }
 
 .createPostWrapper {
-  background-color: rgb(252, 72, 36);
+  background-color: rgb(188, 250, 212);
   border-radius: 5px;
   width: 60%;
   padding-top: 30px;
 }
 
 button {
+  width: 40%;
   margin: 20px 0;
   padding: 10px 20px;
   background-color: #04aa6d;
   color: black;
   border: 2px solid #fff;
+  font-weight: bold;
 }
 
 button:hover {
