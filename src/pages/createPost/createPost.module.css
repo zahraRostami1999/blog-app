@@ -1,18 +1,28 @@
+.createContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 30px 0 0;
+}
+
 .createPostWrapper {
-  margin: 80px 30px 0 30px;
+  background-color: rgb(252, 72, 36);
+  border-radius: 5px;
+  width: 60%;
+  padding-top: 30px;
 }
 
 button {
-  margin-top: 20px;
+  margin: 20px 0;
   padding: 10px 20px;
-  background-color: #04AA6D; 
-  color: black; 
+  background-color: #04aa6d;
+  color: black;
   border: 2px solid #fff;
 }
 
 button:hover {
   background-color: #fff;
-  border: 2px solid #04AA6D;
+  border: 2px solid #04aa6d;
   color: #000;
 }
-
