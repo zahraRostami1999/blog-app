@@ -11,7 +11,7 @@ function CreatePost() {
     title: "",
     author: "",
     readingTime: "",
-    cover:"",
+    cover: "",
     content: "",
   });
 
@@ -22,24 +22,25 @@ function CreatePost() {
     }));
   };
 
-const sendNewPost = (e) => {
-  axios.post("http://localhost:8000/PostAPI", 
-    {
+  const sendNewPost = (e) => {
+    axios.post("http://localhost:8000/PostAPI", {
       id: 9,
       badge: "Design",
       cover: postData.cover,
       title: postData.title,
       author: postData.author,
       content: postData.content,
-      readingTime: postData.readingTime
-    }
-  )
-};
+      readingTime: postData.readingTime,
+    });
+  };
 
   return (
     <>
-      <div>
-        <Header blogName="Zahra Rostami (XanimQiz)' Blog" blogTitle="Create New Post" />
+      <Header
+        blogName="Zahra Rostami (XanimQiz)' Blog"
+        blogTitle="Create New Post"
+      />
+      <div className={styled.createContainer}>
         <div className={styled.createPostWrapper}>
           <Input
             label="Title"
