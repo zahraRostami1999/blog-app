@@ -6,33 +6,19 @@
   justify-content: center;
 }
 
-.wrapper {
-  width: 60%;
-  display: flex;
-}
-
-.col_40,
-.col_60 {
+.wrapper{
+  transform: translateX(-80px);
+  width: 28%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-}
-
-.col_40 {
-  width: 40%;
-  background-color: rgb(251, 179, 37);
-}
-
-.col_60 {
-  width: 60%;
-  background-color: rgba(94, 94, 94, 0.558);
+  rotate: -12deg;
 }
 
 .colContainer {
-  width: 80%;
+
+  width: 60%;
   height: 90%;
-  color: #000000;
+  color: #1f1f1f;
 }
 
 .titleInfo {
