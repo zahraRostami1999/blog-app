@@ -3,13 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 100px 30px 0 0;
+  height: 92vh;
+  opacity: 0.8;
 }
 
 .createPostWrapper {
-  background-color: rgb(191, 239, 249);
   border-radius: 5px;
-  width: 60%;
+  width: 32%;
   padding-top: 30px;
 }
 
@@ -18,13 +18,13 @@ button {
   margin: 20px 0;
   padding: 10px 20px;
   background-color: rgb(1, 153, 184);
-  color: black;
+  color: #000;
   border: 2px solid #fff;
   font-weight: bold;
+  border-radius: 6px;
 }
 
 button:hover {
   background-color: #fff;
-  border: 2px solid #04aa6d;
-  color: #000;
+  border: 2px solid rgb(1, 153, 184);
 }
