@@ -5,6 +5,7 @@ import Input from "../../Components/input/Input";
 import Textarea from "../../Components/textArea/Textarea";
 import { useState } from "react";
 import axios from "axios";
+import create from "../../assets/image/create.jpg";
 
 function CreatePost() {
   const [postData, setPostData] = useState({
@@ -36,38 +37,37 @@ function CreatePost() {
 
   return (
     <>
-      <Header
-        blogName="Zahra Rostami (XanimQiz)' Blog"
-        blogTitle="Create New Post"
-      />
-      <div className={styled.createContainer}>
-        <div className={styled.createPostWrapper}>
-          <Input
-            label="Title"
-            name="title"
-            type="text"
-            handleChange={handleChangePost}
-          />
-          <Input
-            label="Cover"
-            name="cover"
-            type="text"
-            handleChange={handleChangePost}
-          />
-          <Input
-            label="Author"
-            name="author"
-            type="text"
-            handleChange={handleChangePost}
-          />
-          <Input
-            label="ReadingTime"
-            name="readingTime"
-            type="text"
-            handleChange={handleChangePost}
-          />
-          <Textarea label="Text" name="content" />
-          <button onClick={sendNewPost}>Send Post</button>
+      <div style={{ backgroundImage: `url(${create})`, backgroundSize: 'cover'}}>
+        <Header blogName="Zahra Rostami (XanimQiz)' Blog" />
+        <div className={styled.createContainer}>
+          <div className={styled.createPostWrapper}>
+            <Input
+              label="Title"
+              name="title"
+              type="text"
+              handleChange={handleChangePost}
+            />
+            <Input
+              label="Cover"
+              name="cover"
+              type="text"
+              handleChange={handleChangePost}
+            />
+            <Input
+              label="Author"
+              name="author"
+              type="text"
+              handleChange={handleChangePost}
+            />
+            <Input
+              label="ReadingTime"
+              name="readingTime"
+              type="text"
+              handleChange={handleChangePost}
+            />
+            <Textarea label="Text" name="content" />
+            <button onClick={sendNewPost}>Upload Post</button>
+          </div>
         </div>
       </div>
     </>
