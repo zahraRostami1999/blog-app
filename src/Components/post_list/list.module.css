@@ -1,4 +1,11 @@
+.postList{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
 .list {
+  width: 75%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
