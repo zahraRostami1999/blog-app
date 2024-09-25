@@ -25,7 +25,7 @@ function CreatePost() {
 
   const sendNewPost = (e) => {
     axios.post("http://localhost:8000/PostAPI", {
-      id: 9,
+      id: 6,
       badge: "Design",
       cover: postData.cover,
       title: postData.title,
@@ -65,7 +65,7 @@ function CreatePost() {
               type="text"
               handleChange={handleChangePost}
             />
-            <Textarea label="Text" name="content" />
+            <Textarea label="Text" name="content" handleChange={handleChangePost} />
             <button onClick={sendNewPost}>Upload Post</button>
           </div>
         </div>
