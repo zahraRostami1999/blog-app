@@ -12,7 +12,6 @@ function PostsList() {
           blogName="Zahra Rostami (XanimQiz)' Blog"
         />
         <Post_list />
-        <Footer title="..." />
       </div>
     </>
   );
