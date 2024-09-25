@@ -1,5 +1,4 @@
 .postContainer{
-    margin: 100px 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -8,7 +7,6 @@
 .postSection{
     padding-bottom: 40px;
     width: 60%;
-    background-color: rgb(249, 249, 167);
     border-radius: 20px;
 }
 
@@ -24,13 +22,15 @@
 .postImg{
     margin: 20px 0;
     width: 880px;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .postImg img{
-    width: 50%;
+    width: 60%;
+    height: 100%;
 }
 
 .postContent{
