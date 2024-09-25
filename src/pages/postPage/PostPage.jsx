@@ -30,7 +30,7 @@ function PostPage() {
 
   return (
     <>
-      <Header blogTitle={post.title} />
+      <Header blogTitle="Zahra Rostami(XanimQiz)'s Blog" />
       {isLoading ? (
         <Spinner />
       ) : (
