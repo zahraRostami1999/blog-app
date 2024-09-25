@@ -1,7 +1,9 @@
 .postList{
   width: 100%;
+  height: 84.8vh;
   display: flex;
   justify-content: flex-start;
+  align-items: center;
 }
 
 .list {
@@ -13,5 +15,5 @@
 }
 
 .list a {
-  width: 23%;
+  width: 24%;
 }
