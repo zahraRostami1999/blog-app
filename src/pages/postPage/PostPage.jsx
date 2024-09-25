@@ -1,5 +1,4 @@
 import styled from "./postPage.module.css";
-import cover1 from "./../../assets/image/post1.png";
 import Header from "../../Components/header/Header";
 import { useParams } from "react-router-dom";
 import axios from "axios";
@@ -8,6 +7,7 @@ import { useState } from "react";
 import { Fragment } from "react";
 import Spinner from "../../Components/spinner/Spinner";
 import { Link } from "react-router-dom";
+
 
 function PostPage() {
   const params = useParams();
@@ -34,23 +34,23 @@ function PostPage() {
       {isLoading ? (
         <Spinner />
       ) : (
-        <div className={styled.postContainer}>
-          <div className={styled.postSection}>
-            <div className={styled.postTitle}>
-              <h5>{post.author}</h5>
-              <h5>{post.readingTime}</h5>
-            </div>
-            <div className={styled.postImg}>
-              <img src={cover1} alt="postImg" />
-            </div>
-            <div className={styled.postContent}>
-              <p>{post.content}</p>
-            </div>
-            <div className={styled.backList}>
-              <Link to="/Posts">See other Posts</Link>
+          <div className={styled.postContainer}>
+            <div className={styled.postSection}>
+              <div className={styled.postImg}>
+                <img src={post.cover} alt="postImg" />
+              </div>
+              <div className={styled.postTitle}>
+                <h5>{post.author}</h5>
+                <h5>{post.readingTime}</h5>
+              </div>
+              <div className={styled.postContent}>
+                <p>{post.content}</p>
+              </div>
+              <div className={styled.backList}>
+                <Link to="/Posts">See other Posts</Link>
+              </div>
             </div>
           </div>
-        </div>
       )}
     </>
   );
