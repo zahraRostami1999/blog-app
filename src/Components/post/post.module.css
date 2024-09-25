@@ -1,14 +1,14 @@
 .postWrapper{
-    box-shadow: 4px 5px 6px #f9e8f4;
-    border: 2px solid #e2e2e2;
+    border: 2px solid #a7a6a6;
     border-radius: 12px ;
     margin-top: 30px;
 }
 
 .postBadge{
-    color: rgb(242, 28, 107);
+    color: rgb(242, 117, 28);
     width: 30%;
     font-weight: 500;
+    text-decoration: none;
 }
 
 .postImg{
@@ -30,6 +30,8 @@
     text-align: center;
     padding-left: 18px;
     margin: 10px 0;
+    text-decoration: none;
+    color: rgb(39, 38, 38);
 }
 
 .postAuthor{
