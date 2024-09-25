@@ -7,7 +7,7 @@ import background from "../../assets/image/homePage.jpg";
 function Home() {
   return (
     <>
-      <Header blogName="Zahra Rostami(XanimQiz)' Blog" />
+      <Header blogName="Zahra Rostami(XanimQiz)'s Blog" />
       <div className={styled.backgroundCover}>
         <div
           style={{
