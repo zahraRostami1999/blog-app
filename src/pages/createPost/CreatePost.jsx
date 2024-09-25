@@ -25,7 +25,7 @@ function CreatePost() {
 
   const sendNewPost = (e) => {
     axios.post("http://localhost:8000/PostAPI", {
-      id: 6,
+      id: 5,
       badge: "Design",
       cover: postData.cover,
       title: postData.title,
