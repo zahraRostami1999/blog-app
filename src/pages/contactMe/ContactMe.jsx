@@ -17,7 +17,7 @@ function ContactMe() {
   return (
     <>
       <div style={{backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '99.8vh'} }>
-        <Header blogName="Zahra Rostami (XanimQiz)' Blog" />
+        <Header blogName="Zahra Rostami(XanimQiz)'s Blog" />
         <div className={styled.container}>
           <div className={styled.wrapper}>
               <div className={styled.colContainer}>
