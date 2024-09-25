@@ -38,7 +38,7 @@ function CreatePost() {
   return (
     <>
       <div style={{ backgroundImage: `url(${create})`, backgroundSize: 'cover'}}>
-        <Header blogName="Zahra Rostami (XanimQiz)' Blog" />
+        <Header blogName="Zahra Rostami(XanimQiz)'s Blog" />
         <div className={styled.createContainer}>
           <div className={styled.createPostWrapper}>
             <Input
